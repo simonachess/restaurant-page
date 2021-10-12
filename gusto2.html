@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gusto</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="gusto2.css">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div id="menu-options" class="menu-options">
+            <a href='#special' onclick="menuClose()">Specials</a>
+            <a href='#about' onclick="menuClose()">About</a>
+            <a href='#menu' onclick="menuClose()">Menu</a>
+            <a href='#chef' onclick="menuClose()">Chef</a>
+            <a href='#contact' onclick="menuClose()">Contact</a>
+        </div>
+        <div id="hamburger" class="menu-container" onclick="menuToggle()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </nav>
+    <header>
+        <span></span>
+        <h1>Gusto</h1>
+        <p>Reservations: (887) 654-3210</p>
+    </header>
+    <div id="specials">
+        <div class="container">
+            <div class="section-title">
+                <h2>OUR SPECIALS</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="row">
+                <div class="special-item">
+                    <h3>Lorem ipsum dolor</h3>
+                    <img src="1.jpg">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed
+                        commodo.</p>
+                </div>
+                <div class="special-item">
+                    <h3>Consectetur adipiscing</h3>
+                    <img src="2.jpg">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed
+                        commodo.</p>
+                </div>
+                <div class="special-item">
+                    <h3>Duis sed dapibus</h3>
+                    <img src="3.jpg">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed
+                        commodo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <img src="gallery-bg.jpg">
+            <div class="about-text">
+                <h2>OUR STORY</h2>
+                <div class="title-line"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
+                    commodo nibh ante
+                    facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
+                    commodo nibh ante
+                    facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="menu">
+        <div class="container">
+            <h2>Menu</h2>
+            <div class="title-line"></div>
+            <div class="menu-container">
+                <div class="menu-details">
+                    <h2>BREAKFAST & STARTERS</h2>
+                    <div class="title-line"></div>
+                    <div class="menu-item">
+                        <div class="title-price">
+                            <div class="title">
+                                Tortellini Skewers
+                            </div>
+                            <div class="price">
+                                $9
+                            </div>
+                        </div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                            dapibus leo nec ornare
+                            diam.
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="title-price">
+                            <div class="title">
+                                Fried Ravioli
+                            </div>
+                            <div class="price">
+                                $7
+                            </div>
+                        </div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                            dapibus leo nec ornare
+                            diam.
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="title-price">
+                            <div class="title">
+                                Wild Mushroom Arancini
+                            </div>
+                            <div class="price">
+                                $9
+                            </div>
+                        </div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                            dapibus leo nec ornare
+                            diam.
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="title-price">
+                            <div class="title">
+                                Mozzarella Sticks
+                            </div>
+                            <div class="price">
+                                $10
+                            </div>
+                        </div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                            dapibus leo nec ornare
+                            diam.
+                        </div>
+                    </div>
+
+                </div>
+                <div class="menu-details">
+                    <h2>Main course</h2>
+                    <div class="title-line"></div>
+                    <div class="menu-item">
+                        <div class="title-price">
+                            <div class="title">
+                                Roast Stuffed Chicken
+                            </div>
+                            <div class="price">
+                                $18
+                            </div>
+                        </div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                            dapibus leo nec ornare
+                            diam.
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="title-price">
+                            <div class="title">
+                                Chicken & Mushroom Pasta
+                            </div>
+                            <div class="price">
+                                $20
+                            </div>
+                        </div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                            dapibus leo nec ornare
+                            diam.
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="title-price">
+                            <div class="title">
+                                Beef Lasagne
+                            </div>
+                            <div class="price">
+                                $14
+                            </div>
+                        </div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                            dapibus leo nec ornare
+                            diam.
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="title-price">
+                            <div class="title">
+                                Chicken Goujons
+                            </div>
+                            <div class="price">
+                                $19
+                            </div>
+                        </div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                            dapibus leo nec ornare
+                            diam.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="menu-container">
+                <div class="menu-details">
+                    <h2>DINNER</h2>
+                    <div class="title-line"></div>
+                    <div class="menu-item">
+                        <div class="title-price">
+                            <div class="title">
+                                Sesame-Ginger Beef
+                            </div>
+                            <div class="price">
+                                $15
+                            </div>
+                        </div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                            dapibus leo nec ornare
+                            diam.
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="title-price">
+                            <div class="title">
+                                Crispy Fried Chicken
+                            </div>
+                            <div class="price">
+                                $17
+                            </div>
+                        </div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                            dapibus leo nec ornare
+                            diam.
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="title-price">
+                            <div class="title">
+                                Mongolian Shrimp & Broccoli
+                            </div>
+                            <div class="price">
+                                $18
+                            </div>
+                        </div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                            dapibus leo nec ornare
+                            diam.
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="title-price">
+                            <div class="title">
+                                Spicy Coconut Salmon
+                            </div>
+                            <div class="price">
+                                $9
+                            </div>
+                        </div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                            dapibus leo nec ornare
+                            diam.
+                        </div>
+                    </div>
+
+                </div>
+                <div class="menu-details">
+                    <h2>DESSERTS</h2>
+                    <div class="title-line"></div>
+                    <div class="menu-item">
+                        <div class="title-price">
+                            <div class="title">
+                                Chocolate Mud Cake
+                            </div>
+                            <div class="price">
+                                $11
+                            </div>
+                        </div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                            dapibus leo nec ornare
+                            diam.
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="title-price">
+                            <div class="title">
+                                Bourbon-Pecan Tart
+                            </div>
+                            <div class="price">
+                                $14
+                            </div>
+                        </div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                            dapibus leo nec ornare
+                            diam.
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="title-price">
+                            <div class="title">
+                                Texas Sheet Cake
+                            </div>
+                            <div class="price">
+                                $15
+                            </div>
+                        </div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                            dapibus leo nec ornare
+                            diam.
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="title-price">
+                            <div class="title">
+                                Vanilla Cheesecake
+                            </div>
+                            <div class="price">
+                                $18
+                            </div>
+                        </div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                            dapibus leo nec ornare
+                            diam.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gallery">
+        <img src="01.jpg">
+        <img src="02.jpg">
+        <img src="03.jpg">
+        <img src="04.jpg">
+    </div>
+
+    <div id="chef">
+        <div class="container">
+            <div class="chef-desc">
+                <h2>Meet our chef</h2>
+                <div class="title-line"></div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae praesentium iusto
+                    maxime officiis eius voluptate tempora eveniet reprehenderit! Ex aspernatur deleniti maiores
+                    explicabo!
+                    Iusto eaque odit esse illum velit.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae praesentium iusto
+                    maxime officiis eius voluptate tempora eveniet reprehenderit! Ex aspernatur deleniti maiores
+                    explicabo!
+                    Iusto eaque odit esse illum velit.</p>
+            </div>
+            <img src="chef.jpg">
+        </div>
+    </div>
+
+    <div id="contact">
+
+        <div class="info">
+            <div class="col">
+                <h3>Reservation</h3>
+                <div class="title-line"></div>
+                <p>Please call </p>
+                <p>(123) 123-1234</p>
+            </div>
+            <div class="col">
+                <h3>ADDRESS</h3>
+                <div class="title-line"></div>
+                <p>4321 California St,</p>
+                <p>San Francisco, CA 12345</p>
+            </div>
+            <div class="col">
+                <h3>OPENING HOURS</h3>
+                <div class="title-line"></div>
+                <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
+                <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
+            </div>
+        </div>
+        <form>
+            <h3>Send us a message</h3>
+            <div class="title-line"></div>
+            <div class="input-row">
+                <input placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <textarea placeholder="Message" rows=4></textarea>
+            <div class="btn">
+                <input type="submit" value="Send message">
+            </div>
+        </form>
+
+    </div>
+
+
+    <div id="footer">
+        <div class="copy-right-text">© Copyright. All rights reserved | Designed by <a
+                href="https://google.com">TemplateWire</a>
+        </div>
+        <div class="media-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+        </div>
+    </div>
+    <script>
+
+        let menuOptions = document.getElementById('menu-options');
+        let hamburger = document.getElementById('hamburger');
+
+        function menuToggle() {
+            //     console.log(menuContainer);
+            menuOptions.classList.toggle("change");
+            hamburger.classList.toggle("change");
+        }
+
+        function menuClose() {
+            menuOptions.classList.remove("change");
+            hamburger.classList.remove("change");
+        }
+
+    </script>
+</body>
+
+
+
+</html>
